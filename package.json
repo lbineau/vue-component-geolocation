@@ -1,0 +1,16 @@
+{
+  "name": "vue-component-geolocation",
+  "description": "Vue renderless component to use Geolocation API",
+  "version": "1.0.0",
+  "author": "lory.bineau@b-i.com",
+  "main": "dist/geolocation.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+      "start": "poi build"
+  },
+  "devDependencies": {
+    "poi": "^9.6.13"
+  }
+}

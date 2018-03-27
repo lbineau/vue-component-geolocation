@@ -68,6 +68,17 @@ export default {
       this.loading = false
     }
   },
+  watch: {
+    currentLocation (newVal) {
+      this.$emit('input', newVal)
+    },
+    error (newVal) {
+      this.$emit('geolocation_error', newVal)
+    },
+    loading (newVal) {
+      this.$emit('geolocation_loading', newVal)
+    }
+  },
   render () {
     return this.$scopedSlots.default({
       currentLocation: this.currentLocation,

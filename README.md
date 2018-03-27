@@ -1,6 +1,9 @@
 # vue-component-geolocation
 Vue renderless component to use Geolocation API using [scoped slots](https://vuejs.org/v2/guide/components-slots.html#Scoped-Slots)
 
+![notification](https://image.ibb.co/fXERn7/screenshot.png)
+![button](https://image.ibb.co/ecGHun/button.png)
+
 Installation
 ------
 ```javascript

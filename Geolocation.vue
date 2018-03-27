@@ -70,9 +70,6 @@ export default {
   },
   render () {
     return this.$scopedSlots.default({
-      auto: this.auto,
-      watch: this.watch,
-      positionOptions: this.positionOptions,
       currentLocation: this.currentLocation,
       error: this.error,
       loading: this.loading,

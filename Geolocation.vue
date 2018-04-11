@@ -69,8 +69,11 @@ export default {
     }
   },
   watch: {
-    currentLocation (newVal) {
-      this.$emit('input', newVal)
+    currentLocation: {
+      deep: true,
+      handler (newVal) {
+        this.$emit('input', newVal)
+      }
     },
     error (newVal) {
       this.$emit('geolocation_error', newVal)
